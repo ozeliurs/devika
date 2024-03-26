@@ -2,9 +2,6 @@ name: Docker Build and Push
 
 on:
   push:
-    branches:
-      - *
-
   workflow_dispatch:
 
 permissions: write-all
